@@ -43,13 +43,13 @@ export default function Component() {
               >
                 Schedule Your Free Call
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg font-medium rounded-lg transition-all duration-200 bg-transparent"
               >
                 Learn More
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
