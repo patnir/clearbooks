@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Building2, Calculator, CheckCircle, DollarSign, FileText, MapPin, Phone, Star, TrendingUp, Users } from "lucide-react"
+
+const CALENDAR_LINK = "https://cal.com/ajay-patni-e8vaeb/30min"
 
 export default function Component() {
   return (
@@ -37,12 +38,14 @@ export default function Component() {
               We help small businesses navigate tax uncertainty, compliance changes, and staffing challenges with clean, tax‑ready books every month.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
+              <a
+                href={CALENDAR_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
               >
                 Schedule Your Free Call
-              </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -299,12 +302,14 @@ export default function Component() {
             <p className="text-lg text-gray-600 mb-8">
               Schedule a free consultation today and discover how we can help your business thrive despite rising costs and compliance challenges.
             </p>
-            <Button
-              size="lg"
-              className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 text-lg font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
+            <a
+              href={CALENDAR_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 text-lg font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200"
             >
               Schedule Your Free Call
-            </Button>
+            </a>
           </div>
         </div>
       </section>
