@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://clearbooks.com'),
+  metadataBase: new URL('https://clearbooks.vercel.app'),
   title: 'ClearBooks - Affordable Bookkeeping for Small Businesses',
   description: 'Professional bookkeeping and financial services for small businesses. Navigate tax uncertainty, compliance changes, and staffing challenges with clean, tax-ready books every month.',
   generator: 'Next.js',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://clearbooks.com',
+    url: 'https://clearbooks.vercel.app',
     siteName: 'ClearBooks',
     title: 'ClearBooks - Affordable Bookkeeping for Small Businesses',
     description: 'Professional bookkeeping and financial services for small businesses. Navigate tax uncertainty, compliance changes, and staffing challenges with clean, tax-ready books every month.',
