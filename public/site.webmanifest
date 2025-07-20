@@ -1,0 +1,17 @@
+{
+  "name": "ClearBooks - Professional Bookkeeping Services",
+  "short_name": "ClearBooks",
+  "description": "Affordable bookkeeping and financial services for small businesses",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0d9488",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/"
+}
