@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Calculator, Users, FileText, Phone, Mail, MapPin, Star } from "lucide-react"
+import { Calculator, FileText, MapPin, Phone, Star, Users } from "lucide-react"
 
 export default function Component() {
   return (
@@ -244,12 +244,12 @@ export default function Component() {
               <div className="space-y-3 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" />
-                  <span>(555) 123-4567</span>
+                  <span>(302) 384-1206</span>
                 </div>
-                <div className="flex items-center space-x-2">
+                {/* <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
                   <span>hello@clearbooks.com</span>
-                </div>
+                </div> */}
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
                   <span>123 Main St, Your City</span>
