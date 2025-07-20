@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Professional bookkeeping and financial services for small businesses. Navigate tax uncertainty, compliance changes, and staffing challenges with clean, tax-ready books every month.',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'ClearBooks - Professional Bookkeeping Services',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ClearBooks - Affordable Bookkeeping for Small Businesses',
     description: 'Professional bookkeeping and financial services for small businesses. Navigate tax uncertainty, compliance changes, and staffing challenges.',
-    images: ['/og-image.svg'],
+    images: ['/og-image.png'],
     creator: '@clearbooks',
     site: '@clearbooks',
   },
