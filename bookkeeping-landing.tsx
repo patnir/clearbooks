@@ -16,8 +16,8 @@ export default function Component() {
             <a href="#services" className="text-gray-600 hover:text-teal-600 transition-colors">
               Services
             </a>
-            <a href="#why-delaware" className="text-gray-600 hover:text-teal-600 transition-colors">
-              Why Delaware
+            <a href="#why-us" className="text-gray-600 hover:text-teal-600 transition-colors">
+              Why Choose Us
             </a>
             <a href="tel:+13023841206" className="text-gray-600 hover:text-teal-600 transition-colors">
               Contact
@@ -31,10 +31,10 @@ export default function Component() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Affordable Delaware bookkeeping that solves your cash‑flow, compliance & payroll headaches.
+              Affordable bookkeeping that solves your cash‑flow, compliance & payroll headaches.
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              We help small businesses survive Delaware's high fees, tax uncertainty, and staffing challenges with clean, tax‑ready books every month.
+              We help small businesses navigate tax uncertainty, compliance changes, and staffing challenges with clean, tax‑ready books every month.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -43,13 +43,6 @@ export default function Component() {
               >
                 Schedule Your Free Call
               </Button>
-              {/* <Button
-                variant="outline"
-                size="lg"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg font-medium rounded-lg transition-all duration-200 bg-transparent"
-              >
-                Learn More
-              </Button> */}
             </div>
           </div>
         </div>
@@ -61,7 +54,7 @@ export default function Component() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Benefit-Focused Services</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Comprehensive financial services designed specifically for Delaware small businesses
+              Comprehensive financial services designed specifically for small businesses
             </p>
           </div>
 
@@ -113,7 +106,7 @@ export default function Component() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Tax‑Ready Reports & Year‑End Prep</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Smooth tax season with clean, compliant records and Delaware franchise‑tax tracking.
+                  Smooth tax season with clean, compliant records and proactive tax planning.
                 </p>
               </CardContent>
             </Card>
@@ -142,7 +135,7 @@ export default function Component() {
               <CardContent className="p-6 text-center">
                 <DollarSign className="h-12 w-12 text-teal-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Funding‑Ready Statements</h3>
-                <p className="text-gray-600">Clean financials prepared for SSBCI loan/grant applications.</p>
+                <p className="text-gray-600">Clean financials prepared for loan and grant applications.</p>
               </CardContent>
             </Card>
 
@@ -150,45 +143,54 @@ export default function Component() {
               <CardContent className="p-6 text-center">
                 <CheckCircle className="h-12 w-12 text-teal-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Quick Budget Dashboards</h3>
-                <p className="text-gray-600">Track income, costs, gross‑receipts tax, and payroll trends.</p>
+                <p className="text-gray-600">Track income, costs, payroll, and tax trends.</p>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* Delaware Context & Value */}
-      <section id="why-delaware" className="py-20 bg-blue-50">
+      {/* Business Context & Value */}
+      <section id="why-us" className="py-20 bg-blue-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Why Delaware Businesses Need ClearBooks</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Why Small Businesses Need ClearBooks</h2>
             </div>
 
             <div className="bg-white rounded-xl p-8 shadow-lg mb-12">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-                🏦 Funding‑Ready? Delaware is disbursing <span className="text-teal-600">$14 million</span> in small‑business loans and grants—get your books ready.
+                🏦 Funding‑Ready? Get your books ready for the wave of <span className="text-teal-600">2025 tax & compliance updates</span>—clean, audit-ready, and optimized for grant/loan applications.
               </h3>
-              <p className="text-center text-gray-600 mb-6">
-                Learn more about <a href="https://business.delaware.gov/edge/" className="text-teal-600 hover:text-teal-700 underline" target="_blank" rel="noopener noreferrer">SSBCI & EDGE grant programs</a>.
-              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Delaware's Business Challenges:</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Small-Business Challenges — What You Should Know:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">Delaware charges significant franchise and gross‑receipts taxes, plus high incorporation fees</span>
+                    <span className="text-gray-700">The 20% Qualified Business Income (QBI) deduction for pass-through entities may expire or change in 2025, potentially increasing tax rates</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">Federal Small Business Deduction (20%) may expire this year, raising rates from ~29.7% to ~46.2%</span>
+                    <span className="text-gray-700">State & Local Tax (SALT) deduction cap may tighten again after 2029—impacting owners in higher-tax states</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">Delaware's Morgan tax changes and compliance updates are adding cost pressure</span>
+                    <span className="text-gray-700">2025 brings updated tax brackets, standard deductions, and changes to bonus depreciation and R&D expensing rules</span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700">New payroll rules, higher wage bases, real-time reporting, and overtime regulations are rolling out in 2025</span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700">Lowered IRS thresholds for 1099-K digital payment reporting mean increased tax filing responsibilities</span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <CheckCircle className="h-5 w-5 text-red-500 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700">Corporate Transparency Act (FinCEN BOI Filing) requires many small businesses to file by early 2025 or face penalties</span>
                   </li>
                 </ul>
               </div>
@@ -198,7 +200,7 @@ export default function Component() {
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Avoid sudden tax shocks</strong> — due to rising fees and uncertain deductions</span>
+                    <span className="text-gray-700"><strong>Avoid sudden tax shocks</strong> — due to changing deductions and compliance requirements</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
@@ -206,11 +208,15 @@ export default function Component() {
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Position for funding</strong> — clean financials are essential for SSBCI/EDGE applications</span>
+                    <span className="text-gray-700"><strong>Position for funding</strong> — clean financials are essential for loan and grant applications</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Ensure payroll peace of mind</strong> — stay compliant despite labor shortages</span>
+                    <span className="text-gray-700"><strong>Ensure payroll peace of mind</strong> — stay compliant with evolving regulations</span>
+                  </li>
+                  <li className="flex items-start space-x-3">
+                    <CheckCircle className="h-5 w-5 text-teal-600 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700"><strong>Navigate compliance complexity</strong> — from BOI filings to digital payment reporting</span>
                   </li>
                 </ul>
               </div>
@@ -223,8 +229,8 @@ export default function Component() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">What Delaware Businesses Say</h2>
-            <p className="text-lg text-gray-600">Serving Delaware businesses statewide</p>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">What Small Business Owners Say</h2>
+            <p className="text-lg text-gray-600">Serving local small businesses</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -237,11 +243,11 @@ export default function Component() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4 italic">
-                  "ClearBooks helped us navigate Delaware's franchise tax requirements and get our SSBCI application ready. Their attention to detail saved us thousands."
+                  "ClearBooks helped us navigate the new tax compliance requirements and get our loan application ready. Their attention to detail saved us thousands."
                 </p>
                 <div className="text-sm">
                   <p className="font-semibold text-gray-900">Sarah Mitchell</p>
-                  <p className="text-gray-600">Delaware Marketing Solutions, Wilmington</p>
+                  <p className="text-gray-600">Marketing Solutions Co.</p>
                 </div>
               </CardContent>
             </Card>
@@ -255,11 +261,11 @@ export default function Component() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4 italic">
-                  "Finally, payroll that works! They understand Delaware's tax landscape and keep us compliant while we focus on growing our business."
+                  "Finally, payroll that works! They understand the complex tax landscape and keep us compliant while we focus on growing our business."
                 </p>
                 <div className="text-sm">
                   <p className="font-semibold text-gray-900">Mike Rodriguez</p>
-                  <p className="text-gray-600">First State Construction, Dover</p>
+                  <p className="text-gray-600">Rodriguez Construction</p>
                 </div>
               </CardContent>
             </Card>
@@ -273,11 +279,11 @@ export default function Component() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4 italic">
-                  "Their cash flow forecasting helped us prepare for Delaware's tax changes. Professional service that actually understands local business challenges."
+                  "Their cash flow forecasting helped us prepare for the upcoming tax changes. Professional service that actually understands small business challenges."
                 </p>
                 <div className="text-sm">
                   <p className="font-semibold text-gray-900">Jennifer Chen</p>
-                  <p className="text-gray-600">Coastal Cafe Group, Rehoboth Beach</p>
+                  <p className="text-gray-600">Coastal Cafe Group</p>
                 </div>
               </CardContent>
             </Card>
@@ -289,9 +295,9 @@ export default function Component() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Ready to Simplify Your Delaware Business Finances?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Ready to Simplify Your Small Business Finances?</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Schedule a free consultation today and discover how we can help your Delaware business thrive despite rising costs and compliance challenges.
+              Schedule a free consultation today and discover how we can help your business thrive despite rising costs and compliance challenges.
             </p>
             <Button
               size="lg"
@@ -314,10 +320,10 @@ export default function Component() {
                 <span className="text-lg font-semibold">ClearBooks</span>
               </div>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Professional bookkeeping and finance services for Delaware small businesses.
+                Professional bookkeeping and finance services for small businesses.
               </p>
               <p className="text-teal-400 font-medium">
-                Proudly serving Delaware‑based small businesses only
+                Proudly serving local small businesses
               </p>
             </div>
 
@@ -360,7 +366,7 @@ export default function Component() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
-                  <span>Serving All Delaware Businesses</span>
+                  <span>Serving Local Small Businesses</span>
                 </div>
               </div>
             </div>
